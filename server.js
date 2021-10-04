@@ -57,7 +57,7 @@ app.post('/api/notes', (req ,res) =>{
          console.log(err);
       }
     });
-    window.location.reload();
+    
   } else {
     res.status(500).json('Error in posting Note');
   }
